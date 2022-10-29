@@ -65,7 +65,7 @@ The Agencies Confer
 ```
 
 The three "**.**" in vertical signifies large spaces. 
-#
+
 command:
 ```
 grep -v "o" technical/biomed/rr37.txt
@@ -155,7 +155,7 @@ This outputs:
 
 
 ```
-#
+
 command:
 
 ```
@@ -206,7 +206,8 @@ This outputs:
 
 
 *grep -v* inverts the sense of matching, to select non-matching lines. Hence, it grabs all the nonmatching lines and outputs it in the terminal. 
-#
+
+___
 
 - *grep -i*
 
@@ -221,7 +222,7 @@ This outputs:
 About five minutes after the hijacking began, Betty Ong contacted the American Airlines Southeastern Reservations Office in Cary, North Carolina, via an AT&T airphone to report an emergency aboard the flight. This was the first of several occasions on 9/11 when flight attendants took action outside the scope of their training, which emphasized that in a 
 hijacking, they were to communicate with the cockpit crew. The emergency call lasted approximately 25 minutes, as Ong calmly and professionally relayed information about events taking place aboard the airplane to authorities on the ground...(some more text)
 ```
-#
+
 command:
 
 ```
@@ -246,7 +247,7 @@ INSIDE THE FOUR FLIGHTS
 .
 ```
 The three "**.**" in vertical signifies large spaces. 
-#
+
 
 command:
 
@@ -259,7 +260,8 @@ from physician practices in Northern California. Details
 ```
 
 *grep -i* ignores case distinctions in patterns and input data, so that characters that differ only in case match each other.
-#
+
+____
 - *grep -c*
 
 command:
@@ -286,7 +288,7 @@ technical/911report/chapter-8.txt:5
 technical/911report/chapter-9.txt:4
 technical/911report/preface.txt:0
 ```
-#
+
 command:
 ```
 grep -c "calls" technical/911report/chapter-1.txt
@@ -295,7 +297,7 @@ This outputs:
 ```
 6
 ```
-#
+
 command:
 ```
 grep -c -v "calls" technical/911report/chapter-1.txt
