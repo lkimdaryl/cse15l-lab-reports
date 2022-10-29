@@ -1,1 +1,1 @@
-![Image](./oceanrays.JPG)
+![Image](./imgs/oceanrays.JPG)
