@@ -17,7 +17,7 @@ Description:
 6. Press `<e>` to prompt end command. This deletes the whole word.
 ![](./imgs/vim3.JPG)
 7. Type **"base"**. This replaces the word "**start**" with the word "**base**".
-![](./imgs/vim4.JPG)
+![](./imgs/vim4.JPG)    
 Note that we are in insert mode right now.
 8. Press `<esc>` to get back to normal mode
 ![](./imgs/vim5.JPG)
