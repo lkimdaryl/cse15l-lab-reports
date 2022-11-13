@@ -32,11 +32,11 @@ Note that we are in insert mode right now.
 ![](./imgs/vim11.JPG)
 ## Part 2
 ### Comparing two styles of editing files
-1. Starting from Visual Studio code and using the scp command to move the file into the remote computer
+- Starting from Visual Studio code and using the scp command to move the file into the remote computer
 
 I'm not particularly fond of this style. Since I have windows, vim doesn't work. So I had to edit the DocSearchServer.java file in Visual studio code, manually look through the lines for the word "start" and change it to "base". Once I found all the word start, I saved it. I then open a terminal and used the scp command to move the file. I made the mistake of copying the the whole directory to the remote computer which wasted a lot more time. It took about a minute to copy over. I then test it out by typing bash test.sh. All in all it took me 10 minutes to do the editing, saving, moving the file to the remote computer and testing it.
 
-2. Start already logged into a ssh session.
+- Start already logged into a ssh session.
 
 When already logged in, I easily edited the file using vim. Using the the keys described in Part 1, I was able to change the word "start" to "base" in under a minute. After replacing, I exited by typing ":wq", and then testing it using bash test.sh. All in all, it only took me 1 minute and 46 seconds to do the task.
 
